@@ -7,8 +7,8 @@ This repository contains a Python-based ingestor designed to load CSV files into
 ## Schema Overview
 The ingestor loads data into the following schema, modeled as a data warehouse:
 
-![Database Schema](![image](https://github.com/user-attachments/assets/0f023a91-8934-4fa2-a125-ad4dfe3874f7))
-
+![Database Schema](![WhatsApp Image 2025-01-25 at 23 32 19_77d77874](https://github.com/user-attachments/assets/830aa869-035a-410c-bbc1-1c74ec69f440)
+)
 The schema includes the following tables:
 
 ### Level 1: Core Dimension Tables
