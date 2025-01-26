@@ -1,0 +1,40 @@
+ID_PROVEEDOR,RFC,RAZON_SOCIAL,CORREO_CONTACTO,CATEGORIA
+1,SUA010101ABC,Productos del Hogar Suavitel S.A. de C.V.,suavitel@email.com,Hogar
+2,COC010101ABC,Bebidas Refrescantes Coca Cola S.A. de C.V.,coca_cola@email.com,Refrescos
+3,GRE010101ABC,Alimentos de Calidad Great Value S.A. de C.V.,great_value@email.com,Comida
+4,LAY010101ABC,Snacks Deliciosos Lays S.A. de C.V.,lays@email.com,Galletas
+5,TIR010101ABC,Panadería Tia Rosa S.A. de C.V.,tia_rosa@email.com,Comida
+6,REY010101ABC,Galletas y Repostería Reyma S.A. de C.V.,reyma@email.com,Galletas
+7,PEP010101ABC,Bebidas Refrescantes PepsiCo S.A. de C.V.,pepsi@email.com,Refrescos
+8,MMM010101ABC,Chocolates y Dulces M&M S.A. de C.V.,mm@email.com,Chocolate
+9,REY010101ABC,Productos para el Hogar Reynera S.A. de C.V.,reynera@email.com,Hogar
+10,KIK010101ABC,Chocolates Kit Kat S.A. de C.V.,kit_kat@email.com,Chocolate
+11,SPI010101ABC,Bebidas Refrescantes Sprite S.A. de C.V.,sprite@email.com,Refrescos
+12,QUA010101ABC,Cereales Quaker S.A. de C.V.,quaker@email.com,Cereales
+13,ZUC010101ABC,Cereales Zucaritas S.A. de C.V.,zucaritas@email.com,Cereales
+14,BAC010101ABC,Alimentos de Calidad Bachoco S.A. de C.V.,bachoco@email.com,Comida
+15,FAN010101ABC,Bebidas Refrescantes Fanta S.A. de C.V.,fanta@email.com,Refrescos
+16,CRA010101ABC,Galletas Crackets S.A. de C.V.,crackets@email.com,Galletas
+17,NUT010101ABC,Aceites y Grasas Nutrioli S.A. de C.V.,nutrioli@email.com,Comida
+18,EMP010101ABC,Galletas Emperador S.A. de C.V.,emperador@email.com,Galletas
+19,MCC010101ABC,Especias y Condimentos Mccormick S.A. de C.V.,mccormick@email.com,Comida
+20,HEL010101ABC,Mayonesas Hellman's S.A. de C.V.,hellmans@email.com,Comida
+21,SDO010101ABC,Alimentos de Calidad Sol de Oro S.A. de C.V.,sol_de_oro@email.com,Comida
+22,MAR010101ABC,Alimentos Instantáneos Maruchan S.A. de C.V.,maruchan@email.com,Comida
+23,MUN010101ABC,Bebidas Refrescantes Mundet S.A. de C.V.,mundet@email.com,Refrescos
+24,NES010101ABC,Café y Bebidas Nescafe S.A. de C.V.,nescafe@email.com,Comida
+25,ZOT010101ABC,Jabones y Detergentes Zote S.A. de C.V.,zote@email.com,Hogar
+26,CAR010101ABC,Aceites Carbonell S.A. de C.V.,carbonell@email.com,Productos enlatados y secos
+27,LAL010101ABC,Productos Lácteos Lala S.A. de C.V.,Lala@email.com,Comida
+28,CID010101ABC,Conservas Alimenticias Cidacos S.A. de C.V.,cidacos@email.com,Comida
+29,REG010101ABC,Productos de Calidad Regio S.A. de C.V.,regio@email.com,Comida
+30,CRI010101ABC,Bebidas Refrescantes Cristal S.A. de C.V.,cristal@email.com,Refrescos
+31,HAR010101ABC,Alimentos Harvest S.A. de C.V.,harvest@email.com,Comida
+32,ZWA010101ABC,Productos de Calidad ZWAN S.A. de C.V.,zwan@email.com,Comida
+33,CHO010101ABC,Cereales Choko Krispis S.A. de C.V.,choko_krispis@email.com,Cereales
+34,DEL010101ABC,Alimentos Del Monte S.A. de C.V.,del_monte@email.com,Comida
+35,SLI010101ABC,Frutas en Conserva Sliced Peaches S.A. de C.V.,sliced_peaches@email.com,Comida
+36,ZES010101ABC,Alimentos Zesri S.A. de C.V.,zesri@email.com,Comida
+37,FUD010101ABC,Embutidos FUD S.A. de C.V.,fud@email.com,Comida
+38,GAL010101ABC,Productos Lácteos Galbani S.A. de C.V.,galbani@email.com,Lácteos
+39,LMO010101ABC,Pastas Alimenticias La Moderna S.A. de C.V.,la_moderna@email.com,Comida

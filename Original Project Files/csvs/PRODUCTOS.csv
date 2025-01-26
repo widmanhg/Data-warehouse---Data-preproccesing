@@ -1,0 +1,91 @@
+ID_PRODUCTO,ID_PROVEEDOR,NOMBRE,CODIGO_BARRAS,PRECIO_LISTA,DESCUENTOS,PRECIO_VENTA,CATEGORIA,UNIDAD_MEDIDA
+1,14,Suavitel,ABC123,100.0,0.1,90.0,Hogar,$
+2,9,Arroz,DEF456,50.0,0.0,50.0,Comida,$
+3,31,Coca Cola 2L,GHI789,25.0,0.1,22.5,Refrescos,litro
+4,21,Coca Cola 600ML,JKL012,12.0,0.0,12.0,Refrescos,litro
+5,21,Coca Cola 3L,LMN456,43.0,0.0,43.0,Refrescos,litro
+6,9,Coca Cola Lata,OPQ789,15.0,0.0,15.0,Refrescos,litro
+7,17,Coca Cola 350ML,RSU123,12.0,0.0,12.0,Refrescos,litro
+8,28,Lays,TUV456,18.0,0.0,18.0,Galletas,$
+9,30,Platos,DFT789,10.0,0.08,9.2,Hogar,$
+10,15,Pepsi 3L,KLM012,45.0,0.0,45.0,Refrescos,litro
+11,32,Pepsi 2L,MNO345,35.0,0.0,35.0,Refrescos,litro
+12,37,M&M,XYZ987,45.0,0.0,45.0,Chocolate ,$
+13,39,Escoba,JKL567,25.0,0.0,25.0,Hogar,$
+14,27,Kit Kat,PQR321,30.0,0.0,30.0,Chocolate ,$
+15,14,Sprite 2L,ABC567,25.0,0.0,25.0,Refrescos,litro
+16,9,Cereal integral,DEF789,90.0,0.05,85.5,Cereales,$
+17,29,Zucaritas,LMN890,90.0,0.05,85.5,Cereales,$
+18,16,Pollo 700g,OPQ456,177.0,0.1,159.3,Comida,$
+19,7,Fanta 2L,GHI234,45.0,0.0,45.0,Refrescos,litro
+20,17,Crackets 1p,RSU678,18.0,0.0,18.0,Galletas,$
+21,4,Aceite,XYZ789,75.0,0.0,75.0,Comida,$
+22,19,Mayonesa mccormick,ABC456,55.0,0.0,55.0,Comida,$
+23,12,Mayonesa Hellman's,DEF123,55.0,0.0,55.0,Comida,$
+24,23,Emperador combinado,GHI789,15.0,0.0,15.0,Galletas,$
+25,10,Emperador senzo,JKL012,15.0,0.0,15.0,Hogar,$
+26,16,Harina 1kg,MNO345,21.0,0.0,21.0,Comida,$
+27,9,Sopa Maruchan,PQR678,21.0,0.0,21.0,Comida,$
+28,8,Mundet 600ML,STU901,15.0,0.0,15.0,Refrescos,$
+29,2,Café(250g),VWX234,8.0,0.0,8.0,Comida,g
+30,39,Jabón (250g),YZA567,20.0,0.0,20.0,Hogar,g
+31,10,Aceitunas,WXY890,10.0,0.0,10.0,Productos enlatados y secos,$
+32,30,Yogur,BCD123,28.0,0.0,28.0,Comida,$
+33,3,Tomate,EFG456,5.0,0.0,5.0,Comida,$
+34,31,Sprite 3L,HIJ789,12.0,0.0,12.0,Refrescos,$
+35,27,Papel higiénico,KLM012,12.0,0.0,12.0,Hogar,$
+36,18,Cristal Fresa 600ML,OPQ345,15.0,0.0,15.0,Refrescos,$
+37,17,Queso,RST678,28.0,0.05,26.6,Comida,$
+38,30,Cristal Negra 3L,WXY901,30.0,0.0,30.0,Refrescos,litro
+39,30,Cristal Negra 2L,BCD234,20.0,0.0,20.0,Refrescos,litro
+40,26,Cristal Negra 600ML,EFG567,12.0,0.0,12.0,Refrescos,litro
+41,32,Cristal Fresa 2L,HIJ890,25.0,0.0,25.0,Refrescos,litro
+42,17,Cereal integral,GHI123,25.0,0.05,23.75,Galletas,$
+43,26,Tortillas,JKL456,8.0,0.0,8.0,Comida,$
+44,7,Mantequilla,MNO789,4.0,0.0,4.0,Comida,$
+45,38,Manzanas,PQR012,1.5,0.0,1.5,Comida,$
+46,26,Salchichas,STU345,6.0,0.0,6.0,Comida,$
+47,8,Choko Krispis 540g,UVW567,81.0,0.0,81.0,Cereales,g
+48,2,Choko Krispis 160g,XYZ890,25.0,0.0,25.0,Cereales,g
+49,32,Choko Krispis 360g,ABC234,35.0,0.0,35.0,Cereales,g
+50,19,Choko Krispis 250g,DEF567,50.0,0.0,50.0,Cereales,g
+51,15,Manzanas Verdes,PQR901,18.0,0.0,18.0,Frutas,kg
+52,14,Plátanos Maduros,STU234,15.0,0.0,15.0,Frutas,kg
+53,38,Fresas Frescas,VWX567,30.0,0.0,30.0,Frutas,paquete
+54,39,Uvas Rojas,YZA890,25.0,0.0,25.0,Frutas,kg
+55,27,Zanahoria,PQR234,8.0,0.0,8.0,Productos enlatados y secos,$
+56,25,Mango Maduro,STU567,3.0,0.0,3.0,Comida,kg
+57,21,Uvas Verdes,ABC890,28.0,0.0,28.0,Frutas,kg
+58,14,Peras,RST234,20.0,0.0,20.0,Frutas,kg
+59,24,Piña,JKL567,25.0,0.0,25.0,Frutas,kg
+60,36,Granola,MNO890,15.0,0.0,15.0,Cereales,$
+61,12,Mandarinas,XYZ234,12.0,0.0,12.0,Frutas,kg
+62,12,Almendras Tostadas,DEF567,10.0,0.0,10.0,Comida,$
+63,39,Melocotones,OPQ901,22.0,0.0,22.0,Productos enlatados y secos,kg
+64,20,Kiwi,GHI234,2.5,0.0,2.5,Frutas,pieza
+65,26,Carne de Res Molida,PQR567,100.0,0.0,100.0,Carnes,kg
+66,30,Pollo Entero,STU890,60.0,0.0,60.0,Carnes,kg
+67,10,Queso Fresco,VWX234,15.0,0.0,15.0,Lácteos,$
+68,7,Jamón,YZA567,18.0,0.0,18.0,Carnes,kg
+69,29,Leche,BCD890,5.0,0.0,5.0,Lácteos,$
+70,35,Yogurt Natural,MNO234,8.0,0.0,8.0,Lácteos,$
+71,13,Salchichas de Pavo,DEF567,12.0,0.0,12.0,Carnes,$
+72,21,Queso Gouda,OPQ890,25.0,0.0,25.0,Lácteos,$
+73,30,Pescado Ahumado,GHI234,30.0,0.0,30.0,Carnes,$
+74,28,Yogurt con Frutas,JKL567,10.0,0.0,10.0,Lácteos,$
+75,14,Lentejas enlatadas,UVW901,3.0,0.0,3.0,Productos enlatados y secos,$
+76,11,Sopa de Tomate,XYZ234,4.0,0.0,4.0,Productos enlatados y secos,$
+77,28,Pasta de Trigo Integral,ABC567,2.0,0.0,2.0,Productos enlatados y secos,$
+78,18,Atún enlatado,HIJ890,35.0,0.0,35.0,Productos enlatados y secos,$
+79,4,Maíz enlatado,PQR234,35.0,0.0,35.0,Productos enlatados y secos,$
+80,12,Frijoles Blancos,DEF567,5.0,0.0,5.0,Productos enlatados y secos,$
+81,6,Sopa de Guisantes,STU890,15.0,0.0,15.0,Productos enlatados y secos,$
+82,23,Arroz Integral,MNO234,25.0,0.0,25.0,Productos enlatados y secos,$
+83,21,Sardinas enlatadas,GHI567,15.0,0.0,15.0,Productos enlatados y secos,$
+84,10,Puré de Papa,OPQ890,15.0,0.0,15.0,Productos enlatados y secos,$
+85,3,Agua Mineral,NMN123,15.0,0.0,15.0,Bebidas y snacks,litro
+86,35,Galletas Saladas,JKL234,15.0,0.0,15.0,Galletas,$
+87,21,Jugo de Manzana,XYZ567,18.0,0.0,18.0,Bebidas y snacks,litro
+88,14,Papas Fritas con Queso,ABC890,15.0,0.0,15.0,Bebidas y snacks,bolsa
+89,27,Cerveza Artesanal,PQR234,35.0,0.0,35.0,Bebidas y snacks,lata
+90,14,Barritas de Granola,HIJ567,15.0,0.0,15.0,Snacks,$

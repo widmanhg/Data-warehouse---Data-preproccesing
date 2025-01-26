@@ -1,0 +1,2940 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1017.0948                               -->
+<workbook original-version='18.1' source-build='2023.3.0 (20233.23.1017.0948)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Upysusa Base (Warehouse)' inline='true' name='msolap.1nwjzd01xf54ga12u29uu0219r9h' version='18.1'>
+      <connection authentication='sspi' class='msolap' convert-to-extract-prompted='no' dbname='Warehouse' filename='' server='LAPTOP-C90RDO8D' tablename='Upysusa Base'>
+        <metadata-records>
+          <metadata-record class='dimension'>
+            <remote-name>[CAJAS]</remote-name>
+            <remote-type>0</remote-type>
+            <local-name>[CAJAS]</local-name>
+            <remote-alias>[CAJAS]</remote-alias>
+            <caption>CAJAS</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>100</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[CAJAS].[ID CAJA]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='dimension'>
+            <remote-name>[CAJAS - ID SUCURSAL]</remote-name>
+            <remote-type>0</remote-type>
+            <local-name>[CAJAS - ID SUCURSAL]</local-name>
+            <remote-alias>[CAJAS - ID SUCURSAL]</remote-alias>
+            <caption>CAJAS - ID SUCURSAL</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[CAJAS - ID SUCURSAL].[ID SUCURSAL]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='dimension'>
+            <remote-name>[CATALOGO GASTOS]</remote-name>
+            <remote-type>0</remote-type>
+            <local-name>[CATALOGO GASTOS]</local-name>
+            <remote-alias>[CATALOGO GASTOS]</remote-alias>
+            <caption>CATALOGO GASTOS</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>11</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[CATALOGO GASTOS].[NOMBRE]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='dimension'>
+            <remote-name>[COMPRAS]</remote-name>
+            <remote-type>0</remote-type>
+            <local-name>[COMPRAS]</local-name>
+            <remote-alias>[COMPRAS]</remote-alias>
+            <caption>COMPRAS</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>1001</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[COMPRAS].[ID COMPRA]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='dimension'>
+            <remote-name>[COMPRAS - ID PROVEEDOR]</remote-name>
+            <remote-type>0</remote-type>
+            <local-name>[COMPRAS - ID PROVEEDOR]</local-name>
+            <remote-alias>[COMPRAS - ID PROVEEDOR]</remote-alias>
+            <caption>COMPRAS - ID PROVEEDOR</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>40</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[COMPRAS - ID PROVEEDOR].[ID PROVEEDOR]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='dimension'>
+            <remote-name>[EMPLEADOS]</remote-name>
+            <remote-type>0</remote-type>
+            <local-name>[EMPLEADOS]</local-name>
+            <remote-alias>[EMPLEADOS]</remote-alias>
+            <caption>EMPLEADOS</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>101</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[EMPLEADOS].[ID PUESTO]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='dimension'>
+            <remote-name>[EMPLEADOS - ID SUCURSAL]</remote-name>
+            <remote-type>0</remote-type>
+            <local-name>[EMPLEADOS - ID SUCURSAL]</local-name>
+            <remote-alias>[EMPLEADOS - ID SUCURSAL]</remote-alias>
+            <caption>EMPLEADOS - ID SUCURSAL</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[EMPLEADOS - ID SUCURSAL].[ID SUCURSAL]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='dimension'>
+            <remote-name>[Measures]</remote-name>
+            <remote-type>1</remote-type>
+            <local-name>[Measures]</local-name>
+            <remote-alias>[Measures]</remote-alias>
+            <caption>Measures</caption>
+            <local-type>real</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>26</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[Measures]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='dimension'>
+            <remote-name>[PRODUCTOS]</remote-name>
+            <remote-type>0</remote-type>
+            <local-name>[PRODUCTOS]</local-name>
+            <remote-alias>[PRODUCTOS]</remote-alias>
+            <caption>PRODUCTOS</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>91</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[PRODUCTOS].[ID PRODUCTO]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='dimension'>
+            <remote-name>[PRODUCTOS - ID PROVEEDOR]</remote-name>
+            <remote-type>0</remote-type>
+            <local-name>[PRODUCTOS - ID PROVEEDOR]</local-name>
+            <remote-alias>[PRODUCTOS - ID PROVEEDOR]</remote-alias>
+            <caption>PRODUCTOS - ID PROVEEDOR</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>40</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[PRODUCTOS - ID PROVEEDOR].[ID PROVEEDOR]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='dimension'>
+            <remote-name>[PROVEEDORES]</remote-name>
+            <remote-type>0</remote-type>
+            <local-name>[PROVEEDORES]</local-name>
+            <remote-alias>[PROVEEDORES]</remote-alias>
+            <caption>PROVEEDORES</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>40</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[PROVEEDORES].[ID PROVEEDOR]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='dimension'>
+            <remote-name>[SUCURSALES]</remote-name>
+            <remote-type>0</remote-type>
+            <local-name>[SUCURSALES]</local-name>
+            <remote-alias>[SUCURSALES]</remote-alias>
+            <caption>SUCURSALES</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[SUCURSALES].[ID SUCURSAL]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='dimension'>
+            <remote-name>[TICKETS]</remote-name>
+            <remote-type>0</remote-type>
+            <local-name>[TICKETS]</local-name>
+            <remote-alias>[TICKETS]</remote-alias>
+            <caption>TICKETS</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>613</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[TICKETS].[ID TICKET]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='dimension'>
+            <remote-name>[TICKETS - CURP - ID SUCURSAL]</remote-name>
+            <remote-type>0</remote-type>
+            <local-name>[TICKETS - CURP - ID SUCURSAL]</local-name>
+            <remote-alias>[TICKETS - CURP - ID SUCURSAL]</remote-alias>
+            <caption>TICKETS - CURP - ID SUCURSAL</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[TICKETS - CURP - ID SUCURSAL].[ID SUCURSAL]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='dimension'>
+            <remote-name>[TICKETS - ID CAJA - ID SUCURSAL]</remote-name>
+            <remote-type>0</remote-type>
+            <local-name>[TICKETS - ID CAJA - ID SUCURSAL]</local-name>
+            <remote-alias>[TICKETS - ID CAJA - ID SUCURSAL]</remote-alias>
+            <caption>TICKETS - ID CAJA - ID SUCURSAL</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[TICKETS - ID CAJA - ID SUCURSAL].[ID SUCURSAL]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='dimension'>
+            <remote-name>[TICKETS - ID SUCURSAL]</remote-name>
+            <remote-type>0</remote-type>
+            <local-name>[TICKETS - ID SUCURSAL]</local-name>
+            <remote-alias>[TICKETS - ID SUCURSAL]</remote-alias>
+            <caption>TICKETS - ID SUCURSAL</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DEFAULT_HIERARCHY'>&quot;[TICKETS - ID SUCURSAL].[ID SUCURSAL]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[CAJAS].[ID CAJA]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[CAJAS].[ID CAJA]</local-name>
+            <parent-name>[CAJAS]</parent-name>
+            <remote-alias>[CAJAS].[ID CAJA]</remote-alias>
+            <caption>ID CAJA</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>100</approx-count>
+            <contains-null>true</contains-null>
+            <default>true</default>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[CAJAS].[ID CAJA].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[CAJAS].[ID CAJA].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[CAJAS].[ID CAJA].[(All)]</local-name>
+            <parent-name>[CAJAS].[ID CAJA]</parent-name>
+            <remote-alias>[CAJAS].[ID CAJA].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[CAJAS].[ID CAJA].[ID CAJA]</remote-name>
+            <local-name>[CAJAS].[ID CAJA].[ID CAJA]</local-name>
+            <parent-name>[CAJAS].[ID CAJA]</parent-name>
+            <remote-alias>[CAJAS].[ID CAJA].[ID CAJA].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>ID CAJA</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>100</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$CAJAS].[ID CAJA] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[CAJAS - ID SUCURSAL].[ID SUCURSAL]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[CAJAS - ID SUCURSAL].[ID SUCURSAL]</local-name>
+            <parent-name>[CAJAS - ID SUCURSAL]</parent-name>
+            <remote-alias>[CAJAS - ID SUCURSAL].[ID SUCURSAL]</remote-alias>
+            <caption>CAJAS - ID SUCURSAL.ID SUCURSAL</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <default>true</default>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[CAJAS - ID SUCURSAL].[ID SUCURSAL].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[CAJAS - ID SUCURSAL].[ID SUCURSAL].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[CAJAS - ID SUCURSAL].[ID SUCURSAL].[(All)]</local-name>
+            <parent-name>[CAJAS - ID SUCURSAL].[ID SUCURSAL]</parent-name>
+            <remote-alias>[CAJAS - ID SUCURSAL].[ID SUCURSAL].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[CAJAS - ID SUCURSAL].[ID SUCURSAL].[ID SUCURSAL]</remote-name>
+            <local-name>[CAJAS - ID SUCURSAL].[ID SUCURSAL].[ID SUCURSAL]</local-name>
+            <parent-name>[CAJAS - ID SUCURSAL].[ID SUCURSAL]</parent-name>
+            <remote-alias>[CAJAS - ID SUCURSAL].[ID SUCURSAL].[ID SUCURSAL].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>ID SUCURSAL</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$CAJAS - ID SUCURSAL].[ID SUCURSAL] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[CATALOGO GASTOS].[ID NOMBRE GASTO]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[CATALOGO GASTOS].[ID NOMBRE GASTO]</local-name>
+            <parent-name>[CATALOGO GASTOS]</parent-name>
+            <remote-alias>[CATALOGO GASTOS].[ID NOMBRE GASTO]</remote-alias>
+            <caption>ID NOMBRE GASTO</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>11</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[CATALOGO GASTOS].[ID NOMBRE GASTO].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[CATALOGO GASTOS].[NOMBRE]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[CATALOGO GASTOS].[NOMBRE]</local-name>
+            <parent-name>[CATALOGO GASTOS]</parent-name>
+            <remote-alias>[CATALOGO GASTOS].[NOMBRE]</remote-alias>
+            <caption>NOMBRE</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>11</approx-count>
+            <contains-null>true</contains-null>
+            <default>true</default>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[CATALOGO GASTOS].[NOMBRE].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[CATALOGO GASTOS].[ID NOMBRE GASTO].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[CATALOGO GASTOS].[ID NOMBRE GASTO].[(All)]</local-name>
+            <parent-name>[CATALOGO GASTOS].[ID NOMBRE GASTO]</parent-name>
+            <remote-alias>[CATALOGO GASTOS].[ID NOMBRE GASTO].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[CATALOGO GASTOS].[ID NOMBRE GASTO].[ID NOMBRE GASTO]</remote-name>
+            <local-name>[CATALOGO GASTOS].[ID NOMBRE GASTO].[ID NOMBRE GASTO]</local-name>
+            <parent-name>[CATALOGO GASTOS].[ID NOMBRE GASTO]</parent-name>
+            <remote-alias>[CATALOGO GASTOS].[ID NOMBRE GASTO].[ID NOMBRE GASTO].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>ID NOMBRE GASTO</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>11</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$CATALOGO GASTOS].[ID NOMBRE GASTO] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[CATALOGO GASTOS].[NOMBRE].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[CATALOGO GASTOS].[NOMBRE].[(All)]</local-name>
+            <parent-name>[CATALOGO GASTOS].[NOMBRE]</parent-name>
+            <remote-alias>[CATALOGO GASTOS].[NOMBRE].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[CATALOGO GASTOS].[NOMBRE].[NOMBRE]</remote-name>
+            <local-name>[CATALOGO GASTOS].[NOMBRE].[NOMBRE]</local-name>
+            <parent-name>[CATALOGO GASTOS].[NOMBRE]</parent-name>
+            <remote-alias>[CATALOGO GASTOS].[NOMBRE].[NOMBRE].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>NOMBRE</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>11</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$CATALOGO GASTOS].[NOMBRE] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[COMPRAS].[ID COMPRA]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[COMPRAS].[ID COMPRA]</local-name>
+            <parent-name>[COMPRAS]</parent-name>
+            <remote-alias>[COMPRAS].[ID COMPRA]</remote-alias>
+            <caption>ID COMPRA</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>1001</approx-count>
+            <contains-null>true</contains-null>
+            <default>true</default>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[COMPRAS].[ID COMPRA].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[COMPRAS].[ID COMPRA].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[COMPRAS].[ID COMPRA].[(All)]</local-name>
+            <parent-name>[COMPRAS].[ID COMPRA]</parent-name>
+            <remote-alias>[COMPRAS].[ID COMPRA].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[COMPRAS].[ID COMPRA].[ID COMPRA]</remote-name>
+            <local-name>[COMPRAS].[ID COMPRA].[ID COMPRA]</local-name>
+            <parent-name>[COMPRAS].[ID COMPRA]</parent-name>
+            <remote-alias>[COMPRAS].[ID COMPRA].[ID COMPRA].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>ID COMPRA</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1001</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$COMPRAS].[ID COMPRA] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[COMPRAS - ID PROVEEDOR].[ID PROVEEDOR]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[COMPRAS - ID PROVEEDOR].[ID PROVEEDOR]</local-name>
+            <parent-name>[COMPRAS - ID PROVEEDOR]</parent-name>
+            <remote-alias>[COMPRAS - ID PROVEEDOR].[ID PROVEEDOR]</remote-alias>
+            <caption>COMPRAS - ID PROVEEDOR.ID PROVEEDOR</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>40</approx-count>
+            <contains-null>true</contains-null>
+            <default>true</default>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[COMPRAS - ID PROVEEDOR].[ID PROVEEDOR].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[COMPRAS - ID PROVEEDOR].[ID PROVEEDOR].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[COMPRAS - ID PROVEEDOR].[ID PROVEEDOR].[(All)]</local-name>
+            <parent-name>[COMPRAS - ID PROVEEDOR].[ID PROVEEDOR]</parent-name>
+            <remote-alias>[COMPRAS - ID PROVEEDOR].[ID PROVEEDOR].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[COMPRAS - ID PROVEEDOR].[ID PROVEEDOR].[ID PROVEEDOR]</remote-name>
+            <local-name>[COMPRAS - ID PROVEEDOR].[ID PROVEEDOR].[ID PROVEEDOR]</local-name>
+            <parent-name>[COMPRAS - ID PROVEEDOR].[ID PROVEEDOR]</parent-name>
+            <remote-alias>[COMPRAS - ID PROVEEDOR].[ID PROVEEDOR].[ID PROVEEDOR].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>ID PROVEEDOR</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>40</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$COMPRAS - ID PROVEEDOR].[ID PROVEEDOR] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[EMPLEADOS].[CURP]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[EMPLEADOS].[CURP]</local-name>
+            <parent-name>[EMPLEADOS]</parent-name>
+            <remote-alias>[EMPLEADOS].[CURP]</remote-alias>
+            <caption>CURP</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>101</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[EMPLEADOS].[CURP].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[EMPLEADOS].[ID ESTATUS]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[EMPLEADOS].[ID ESTATUS]</local-name>
+            <parent-name>[EMPLEADOS]</parent-name>
+            <remote-alias>[EMPLEADOS].[ID ESTATUS]</remote-alias>
+            <caption>ID ESTATUS</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>1001</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[EMPLEADOS].[ID ESTATUS].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[EMPLEADOS].[ID PUESTO]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[EMPLEADOS].[ID PUESTO]</local-name>
+            <parent-name>[EMPLEADOS]</parent-name>
+            <remote-alias>[EMPLEADOS].[ID PUESTO]</remote-alias>
+            <caption>ID PUESTO</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>17</approx-count>
+            <contains-null>true</contains-null>
+            <default>true</default>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[EMPLEADOS].[ID PUESTO].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[EMPLEADOS].[ID TURNO]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[EMPLEADOS].[ID TURNO]</local-name>
+            <parent-name>[EMPLEADOS]</parent-name>
+            <remote-alias>[EMPLEADOS].[ID TURNO]</remote-alias>
+            <caption>ID TURNO</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>1001</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[EMPLEADOS].[ID TURNO].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[EMPLEADOS].[CURP].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[EMPLEADOS].[CURP].[(All)]</local-name>
+            <parent-name>[EMPLEADOS].[CURP]</parent-name>
+            <remote-alias>[EMPLEADOS].[CURP].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[EMPLEADOS].[CURP].[CURP]</remote-name>
+            <local-name>[EMPLEADOS].[CURP].[CURP]</local-name>
+            <parent-name>[EMPLEADOS].[CURP]</parent-name>
+            <remote-alias>[EMPLEADOS].[CURP].[CURP].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>CURP</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>101</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$EMPLEADOS].[CURP] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[EMPLEADOS].[ID ESTATUS].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[EMPLEADOS].[ID ESTATUS].[(All)]</local-name>
+            <parent-name>[EMPLEADOS].[ID ESTATUS]</parent-name>
+            <remote-alias>[EMPLEADOS].[ID ESTATUS].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[EMPLEADOS].[ID ESTATUS].[ID ESTATUS]</remote-name>
+            <local-name>[EMPLEADOS].[ID ESTATUS].[ID ESTATUS]</local-name>
+            <parent-name>[EMPLEADOS].[ID ESTATUS]</parent-name>
+            <remote-alias>[EMPLEADOS].[ID ESTATUS].[ID ESTATUS].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>ID ESTATUS</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1001</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$EMPLEADOS].[ID ESTATUS] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[EMPLEADOS].[ID PUESTO].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[EMPLEADOS].[ID PUESTO].[(All)]</local-name>
+            <parent-name>[EMPLEADOS].[ID PUESTO]</parent-name>
+            <remote-alias>[EMPLEADOS].[ID PUESTO].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[EMPLEADOS].[ID PUESTO].[ID PUESTO]</remote-name>
+            <local-name>[EMPLEADOS].[ID PUESTO].[ID PUESTO]</local-name>
+            <parent-name>[EMPLEADOS].[ID PUESTO]</parent-name>
+            <remote-alias>[EMPLEADOS].[ID PUESTO].[ID PUESTO].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>ID PUESTO</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>17</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$EMPLEADOS].[ID PUESTO] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[EMPLEADOS].[ID TURNO].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[EMPLEADOS].[ID TURNO].[(All)]</local-name>
+            <parent-name>[EMPLEADOS].[ID TURNO]</parent-name>
+            <remote-alias>[EMPLEADOS].[ID TURNO].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[EMPLEADOS].[ID TURNO].[ID TURNO]</remote-name>
+            <local-name>[EMPLEADOS].[ID TURNO].[ID TURNO]</local-name>
+            <parent-name>[EMPLEADOS].[ID TURNO]</parent-name>
+            <remote-alias>[EMPLEADOS].[ID TURNO].[ID TURNO].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>ID TURNO</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1001</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$EMPLEADOS].[ID TURNO] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[EMPLEADOS - ID SUCURSAL].[ID SUCURSAL]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[EMPLEADOS - ID SUCURSAL].[ID SUCURSAL]</local-name>
+            <parent-name>[EMPLEADOS - ID SUCURSAL]</parent-name>
+            <remote-alias>[EMPLEADOS - ID SUCURSAL].[ID SUCURSAL]</remote-alias>
+            <caption>EMPLEADOS - ID SUCURSAL.ID SUCURSAL</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <default>true</default>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[EMPLEADOS - ID SUCURSAL].[ID SUCURSAL].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[EMPLEADOS - ID SUCURSAL].[ID SUCURSAL].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[EMPLEADOS - ID SUCURSAL].[ID SUCURSAL].[(All)]</local-name>
+            <parent-name>[EMPLEADOS - ID SUCURSAL].[ID SUCURSAL]</parent-name>
+            <remote-alias>[EMPLEADOS - ID SUCURSAL].[ID SUCURSAL].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[EMPLEADOS - ID SUCURSAL].[ID SUCURSAL].[ID SUCURSAL]</remote-name>
+            <local-name>[EMPLEADOS - ID SUCURSAL].[ID SUCURSAL].[ID SUCURSAL]</local-name>
+            <parent-name>[EMPLEADOS - ID SUCURSAL].[ID SUCURSAL]</parent-name>
+            <remote-alias>[EMPLEADOS - ID SUCURSAL].[ID SUCURSAL].[ID SUCURSAL].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>ID SUCURSAL</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$EMPLEADOS - ID SUCURSAL].[ID SUCURSAL] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[NUMERO]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NUMERO]</local-name>
+            <remote-alias>[Measures].[NUMERO]</remote-alias>
+            <caption>NUMERO</caption>
+            <family>SUCURSALES</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[SUCURSALES].[NUMERO]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[CP]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CP]</local-name>
+            <remote-alias>[Measures].[CP]</remote-alias>
+            <caption>CP</caption>
+            <family>SUCURSALES</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[SUCURSALES].[CP]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[NO EMPLEADOS]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NO EMPLEADOS]</local-name>
+            <remote-alias>[Measures].[NO EMPLEADOS]</remote-alias>
+            <caption>NO EMPLEADOS</caption>
+            <family>SUCURSALES</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[SUCURSALES].[NO EMPLEADOS]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[SUCURSALES Count]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SUCURSALES Count]</local-name>
+            <remote-alias>[Measures].[SUCURSALES Count]</remote-alias>
+            <caption>SUCURSALES Count</caption>
+            <family>SUCURSALES</family>
+            <local-type>integer</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[SUCURSALES].[SUCURSALES Count]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[MONTO]</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MONTO]</local-name>
+            <remote-alias>[Measures].[MONTO]</remote-alias>
+            <caption>MONTO</caption>
+            <family>GASTOS</family>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[GASTOS].[MONTO]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[DIA]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DIA]</local-name>
+            <remote-alias>[Measures].[DIA]</remote-alias>
+            <caption>DIA</caption>
+            <family>GASTOS</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[GASTOS].[DIA]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[MES]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MES]</local-name>
+            <remote-alias>[Measures].[MES]</remote-alias>
+            <caption>MES</caption>
+            <family>GASTOS</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[GASTOS].[MES]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[ANO]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ANO]</local-name>
+            <remote-alias>[Measures].[ANO]</remote-alias>
+            <caption>ANO</caption>
+            <family>GASTOS</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[GASTOS].[ANO]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[GASTOS Count]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GASTOS Count]</local-name>
+            <remote-alias>[Measures].[GASTOS Count]</remote-alias>
+            <caption>GASTOS Count</caption>
+            <family>GASTOS</family>
+            <local-type>integer</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[GASTOS].[GASTOS Count]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[CATALOGO GASTOS Count]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CATALOGO GASTOS Count]</local-name>
+            <remote-alias>[Measures].[CATALOGO GASTOS Count]</remote-alias>
+            <caption>CATALOGO GASTOS Count</caption>
+            <family>CATALOGO GASTOS</family>
+            <local-type>integer</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[CATALOGO GASTOS].[CATALOGO GASTOS Count]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[NO PRODUCTOS]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NO PRODUCTOS]</local-name>
+            <remote-alias>[Measures].[NO PRODUCTOS]</remote-alias>
+            <caption>NO PRODUCTOS</caption>
+            <family>COMPRAS</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[COMPRAS].[NO PRODUCTOS]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[COSTO TOTAL PEDIDO]</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[COSTO TOTAL PEDIDO]</local-name>
+            <remote-alias>[Measures].[COSTO TOTAL PEDIDO]</remote-alias>
+            <caption>COSTO TOTAL PEDIDO</caption>
+            <family>COMPRAS</family>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[COMPRAS].[COSTO TOTAL PEDIDO]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[COMPRAS Count]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[COMPRAS Count]</local-name>
+            <remote-alias>[Measures].[COMPRAS Count]</remote-alias>
+            <caption>COMPRAS Count</caption>
+            <family>COMPRAS</family>
+            <local-type>integer</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[COMPRAS].[COMPRAS Count]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[DIA INGRESO]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DIA INGRESO]</local-name>
+            <remote-alias>[Measures].[DIA INGRESO]</remote-alias>
+            <caption>DIA INGRESO</caption>
+            <family>COMPRA POR PRODUCTO</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[COMPRA POR PRODUCTO].[DIA INGRESO]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[MES INGRESO]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MES INGRESO]</local-name>
+            <remote-alias>[Measures].[MES INGRESO]</remote-alias>
+            <caption>MES INGRESO</caption>
+            <family>COMPRA POR PRODUCTO</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[COMPRA POR PRODUCTO].[MES INGRESO]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[ANO INGRESO]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ANO INGRESO]</local-name>
+            <remote-alias>[Measures].[ANO INGRESO]</remote-alias>
+            <caption>ANO INGRESO</caption>
+            <family>COMPRA POR PRODUCTO</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[COMPRA POR PRODUCTO].[ANO INGRESO]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[DIA CADUCIDAD]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DIA CADUCIDAD]</local-name>
+            <remote-alias>[Measures].[DIA CADUCIDAD]</remote-alias>
+            <caption>DIA CADUCIDAD</caption>
+            <family>COMPRA POR PRODUCTO</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[COMPRA POR PRODUCTO].[DIA CADUCIDAD]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[MES CADUCIDAD]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MES CADUCIDAD]</local-name>
+            <remote-alias>[Measures].[MES CADUCIDAD]</remote-alias>
+            <caption>MES CADUCIDAD</caption>
+            <family>COMPRA POR PRODUCTO</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[COMPRA POR PRODUCTO].[MES CADUCIDAD]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[ANO CADUCIDAD]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ANO CADUCIDAD]</local-name>
+            <remote-alias>[Measures].[ANO CADUCIDAD]</remote-alias>
+            <caption>ANO CADUCIDAD</caption>
+            <family>COMPRA POR PRODUCTO</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[COMPRA POR PRODUCTO].[ANO CADUCIDAD]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[COMPRA POR PRODUCTO Count]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[COMPRA POR PRODUCTO Count]</local-name>
+            <remote-alias>[Measures].[COMPRA POR PRODUCTO Count]</remote-alias>
+            <caption>COMPRA POR PRODUCTO Count</caption>
+            <family>COMPRA POR PRODUCTO</family>
+            <local-type>integer</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[COMPRA POR PRODUCTO].[COMPRA POR PRODUCTO Count]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[NO PRODUCTOS - TICKETS]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NO PRODUCTOS - TICKETS]</local-name>
+            <remote-alias>[Measures].[NO PRODUCTOS - TICKETS]</remote-alias>
+            <caption>NO PRODUCTOS - TICKETS</caption>
+            <family>TICKETS</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[TICKETS].[NO PRODUCTOS - TICKETS]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[TOTAL COMPRA]</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOTAL COMPRA]</local-name>
+            <remote-alias>[Measures].[TOTAL COMPRA]</remote-alias>
+            <caption>TOTAL COMPRA</caption>
+            <family>TICKETS</family>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[TICKETS].[TOTAL COMPRA]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[TICKETS Count]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TICKETS Count]</local-name>
+            <remote-alias>[Measures].[TICKETS Count]</remote-alias>
+            <caption>TICKETS Count</caption>
+            <family>TICKETS</family>
+            <local-type>integer</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[TICKETS].[TICKETS Count]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[CANTIDAD]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CANTIDAD]</local-name>
+            <remote-alias>[Measures].[CANTIDAD]</remote-alias>
+            <caption>CANTIDAD</caption>
+            <family>TICKETS DETALLE</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[TICKETS DETALLE].[CANTIDAD]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[SUBTOTAL PRODUCTO]</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SUBTOTAL PRODUCTO]</local-name>
+            <remote-alias>[Measures].[SUBTOTAL PRODUCTO]</remote-alias>
+            <caption>SUBTOTAL PRODUCTO</caption>
+            <family>TICKETS DETALLE</family>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[TICKETS DETALLE].[SUBTOTAL PRODUCTO]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='measure'>
+            <remote-name>[Measures].[TICKETS DETALLE Count]</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TICKETS DETALLE Count]</local-name>
+            <remote-alias>[Measures].[TICKETS DETALLE Count]</remote-alias>
+            <caption>TICKETS DETALLE Count</caption>
+            <family>TICKETS DETALLE</family>
+            <local-type>integer</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='MEASURE_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;[TICKETS DETALLE].[TICKETS DETALLE Count]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[PRODUCTOS].[ID PRODUCTO]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[PRODUCTOS].[ID PRODUCTO]</local-name>
+            <parent-name>[PRODUCTOS]</parent-name>
+            <remote-alias>[PRODUCTOS].[ID PRODUCTO]</remote-alias>
+            <caption>ID PRODUCTO</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>91</approx-count>
+            <contains-null>true</contains-null>
+            <default>true</default>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[PRODUCTOS].[ID PRODUCTO].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[PRODUCTOS].[ID PRODUCTO].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[PRODUCTOS].[ID PRODUCTO].[(All)]</local-name>
+            <parent-name>[PRODUCTOS].[ID PRODUCTO]</parent-name>
+            <remote-alias>[PRODUCTOS].[ID PRODUCTO].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[PRODUCTOS].[ID PRODUCTO].[ID PRODUCTO]</remote-name>
+            <local-name>[PRODUCTOS].[ID PRODUCTO].[ID PRODUCTO]</local-name>
+            <parent-name>[PRODUCTOS].[ID PRODUCTO]</parent-name>
+            <remote-alias>[PRODUCTOS].[ID PRODUCTO].[ID PRODUCTO].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>ID PRODUCTO</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>91</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$PRODUCTOS].[ID PRODUCTO] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[PRODUCTOS - ID PROVEEDOR].[ID PROVEEDOR]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[PRODUCTOS - ID PROVEEDOR].[ID PROVEEDOR]</local-name>
+            <parent-name>[PRODUCTOS - ID PROVEEDOR]</parent-name>
+            <remote-alias>[PRODUCTOS - ID PROVEEDOR].[ID PROVEEDOR]</remote-alias>
+            <caption>PRODUCTOS - ID PROVEEDOR.ID PROVEEDOR</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>40</approx-count>
+            <contains-null>true</contains-null>
+            <default>true</default>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[PRODUCTOS - ID PROVEEDOR].[ID PROVEEDOR].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[PRODUCTOS - ID PROVEEDOR].[ID PROVEEDOR].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[PRODUCTOS - ID PROVEEDOR].[ID PROVEEDOR].[(All)]</local-name>
+            <parent-name>[PRODUCTOS - ID PROVEEDOR].[ID PROVEEDOR]</parent-name>
+            <remote-alias>[PRODUCTOS - ID PROVEEDOR].[ID PROVEEDOR].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[PRODUCTOS - ID PROVEEDOR].[ID PROVEEDOR].[ID PROVEEDOR]</remote-name>
+            <local-name>[PRODUCTOS - ID PROVEEDOR].[ID PROVEEDOR].[ID PROVEEDOR]</local-name>
+            <parent-name>[PRODUCTOS - ID PROVEEDOR].[ID PROVEEDOR]</parent-name>
+            <remote-alias>[PRODUCTOS - ID PROVEEDOR].[ID PROVEEDOR].[ID PROVEEDOR].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>ID PROVEEDOR</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>40</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$PRODUCTOS - ID PROVEEDOR].[ID PROVEEDOR] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[PROVEEDORES].[ID PROVEEDOR]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[PROVEEDORES].[ID PROVEEDOR]</local-name>
+            <parent-name>[PROVEEDORES]</parent-name>
+            <remote-alias>[PROVEEDORES].[ID PROVEEDOR]</remote-alias>
+            <caption>PROVEEDORES.ID PROVEEDOR</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>40</approx-count>
+            <contains-null>true</contains-null>
+            <default>true</default>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[PROVEEDORES].[ID PROVEEDOR].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[PROVEEDORES].[ID PROVEEDOR].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[PROVEEDORES].[ID PROVEEDOR].[(All)]</local-name>
+            <parent-name>[PROVEEDORES].[ID PROVEEDOR]</parent-name>
+            <remote-alias>[PROVEEDORES].[ID PROVEEDOR].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[PROVEEDORES].[ID PROVEEDOR].[ID PROVEEDOR]</remote-name>
+            <local-name>[PROVEEDORES].[ID PROVEEDOR].[ID PROVEEDOR]</local-name>
+            <parent-name>[PROVEEDORES].[ID PROVEEDOR]</parent-name>
+            <remote-alias>[PROVEEDORES].[ID PROVEEDOR].[ID PROVEEDOR].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>ID PROVEEDOR</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>40</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$PROVEEDORES].[ID PROVEEDOR] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[SUCURSALES].[ID SUCURSAL]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[SUCURSALES].[ID SUCURSAL]</local-name>
+            <parent-name>[SUCURSALES]</parent-name>
+            <remote-alias>[SUCURSALES].[ID SUCURSAL]</remote-alias>
+            <caption>SUCURSALES.ID SUCURSAL</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <default>true</default>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[SUCURSALES].[ID SUCURSAL].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[SUCURSALES].[ID SUCURSAL].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[SUCURSALES].[ID SUCURSAL].[(All)]</local-name>
+            <parent-name>[SUCURSALES].[ID SUCURSAL]</parent-name>
+            <remote-alias>[SUCURSALES].[ID SUCURSAL].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[SUCURSALES].[ID SUCURSAL].[ID SUCURSAL]</remote-name>
+            <local-name>[SUCURSALES].[ID SUCURSAL].[ID SUCURSAL]</local-name>
+            <parent-name>[SUCURSALES].[ID SUCURSAL]</parent-name>
+            <remote-alias>[SUCURSALES].[ID SUCURSAL].[ID SUCURSAL].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>ID SUCURSAL</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$SUCURSALES].[ID SUCURSAL] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[TICKETS].[ID TICKET]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[TICKETS].[ID TICKET]</local-name>
+            <parent-name>[TICKETS]</parent-name>
+            <remote-alias>[TICKETS].[ID TICKET]</remote-alias>
+            <caption>ID TICKET</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>613</approx-count>
+            <contains-null>true</contains-null>
+            <default>true</default>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[TICKETS].[ID TICKET].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[TICKETS].[ID TICKET].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[TICKETS].[ID TICKET].[(All)]</local-name>
+            <parent-name>[TICKETS].[ID TICKET]</parent-name>
+            <remote-alias>[TICKETS].[ID TICKET].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[TICKETS].[ID TICKET].[ID TICKET]</remote-name>
+            <local-name>[TICKETS].[ID TICKET].[ID TICKET]</local-name>
+            <parent-name>[TICKETS].[ID TICKET]</parent-name>
+            <remote-alias>[TICKETS].[ID TICKET].[ID TICKET].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>ID TICKET</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>613</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$TICKETS].[ID TICKET] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[TICKETS - CURP - ID SUCURSAL].[ID SUCURSAL]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[TICKETS - CURP - ID SUCURSAL].[ID SUCURSAL]</local-name>
+            <parent-name>[TICKETS - CURP - ID SUCURSAL]</parent-name>
+            <remote-alias>[TICKETS - CURP - ID SUCURSAL].[ID SUCURSAL]</remote-alias>
+            <caption>TICKETS - CURP - ID SUCURSAL.ID SUCURSAL</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <default>true</default>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[TICKETS - CURP - ID SUCURSAL].[ID SUCURSAL].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[TICKETS - CURP - ID SUCURSAL].[ID SUCURSAL].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[TICKETS - CURP - ID SUCURSAL].[ID SUCURSAL].[(All)]</local-name>
+            <parent-name>[TICKETS - CURP - ID SUCURSAL].[ID SUCURSAL]</parent-name>
+            <remote-alias>[TICKETS - CURP - ID SUCURSAL].[ID SUCURSAL].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[TICKETS - CURP - ID SUCURSAL].[ID SUCURSAL].[ID SUCURSAL]</remote-name>
+            <local-name>[TICKETS - CURP - ID SUCURSAL].[ID SUCURSAL].[ID SUCURSAL]</local-name>
+            <parent-name>[TICKETS - CURP - ID SUCURSAL].[ID SUCURSAL]</parent-name>
+            <remote-alias>[TICKETS - CURP - ID SUCURSAL].[ID SUCURSAL].[ID SUCURSAL].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>ID SUCURSAL</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$TICKETS - CURP - ID SUCURSAL].[ID SUCURSAL] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[TICKETS - ID CAJA - ID SUCURSAL].[ID SUCURSAL]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[TICKETS - ID CAJA - ID SUCURSAL].[ID SUCURSAL]</local-name>
+            <parent-name>[TICKETS - ID CAJA - ID SUCURSAL]</parent-name>
+            <remote-alias>[TICKETS - ID CAJA - ID SUCURSAL].[ID SUCURSAL]</remote-alias>
+            <caption>TICKETS - ID CAJA - ID SUCURSAL.ID SUCURSAL</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <default>true</default>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[TICKETS - ID CAJA - ID SUCURSAL].[ID SUCURSAL].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[TICKETS - ID CAJA - ID SUCURSAL].[ID SUCURSAL].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[TICKETS - ID CAJA - ID SUCURSAL].[ID SUCURSAL].[(All)]</local-name>
+            <parent-name>[TICKETS - ID CAJA - ID SUCURSAL].[ID SUCURSAL]</parent-name>
+            <remote-alias>[TICKETS - ID CAJA - ID SUCURSAL].[ID SUCURSAL].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[TICKETS - ID CAJA - ID SUCURSAL].[ID SUCURSAL].[ID SUCURSAL]</remote-name>
+            <local-name>[TICKETS - ID CAJA - ID SUCURSAL].[ID SUCURSAL].[ID SUCURSAL]</local-name>
+            <parent-name>[TICKETS - ID CAJA - ID SUCURSAL].[ID SUCURSAL]</parent-name>
+            <remote-alias>[TICKETS - ID CAJA - ID SUCURSAL].[ID SUCURSAL].[ID SUCURSAL].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>ID SUCURSAL</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$TICKETS - ID CAJA - ID SUCURSAL].[ID SUCURSAL] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='hierarchy'>
+            <remote-name>[TICKETS - ID SUCURSAL].[ID SUCURSAL]</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[TICKETS - ID SUCURSAL].[ID SUCURSAL]</local-name>
+            <parent-name>[TICKETS - ID SUCURSAL]</parent-name>
+            <remote-alias>[TICKETS - ID SUCURSAL].[ID SUCURSAL]</remote-alias>
+            <caption>TICKETS - ID SUCURSAL.ID SUCURSAL</caption>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <default>true</default>
+            <attributes>
+              <attribute datatype='string' name='ALL_MEMBER'>&quot;[TICKETS - ID SUCURSAL].[ID SUCURSAL].[All]&quot;</attribute>
+              <attribute datatype='string' name='HIERARCHY_DISPLAY_FOLDER'>&quot;&quot;</attribute>
+              <attribute datatype='boolean' name='HIERARCHY_USER'>false</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[TICKETS - ID SUCURSAL].[ID SUCURSAL].[(All)]</remote-name>
+            <remote-type>all</remote-type>
+            <local-name>[TICKETS - ID SUCURSAL].[ID SUCURSAL].[(All)]</local-name>
+            <parent-name>[TICKETS - ID SUCURSAL].[ID SUCURSAL]</parent-name>
+            <remote-alias>[TICKETS - ID SUCURSAL].[ID SUCURSAL].[(All)].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>(All)</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='level'>
+            <remote-name>[TICKETS - ID SUCURSAL].[ID SUCURSAL].[ID SUCURSAL]</remote-name>
+            <local-name>[TICKETS - ID SUCURSAL].[ID SUCURSAL].[ID SUCURSAL]</local-name>
+            <parent-name>[TICKETS - ID SUCURSAL].[ID SUCURSAL]</parent-name>
+            <remote-alias>[TICKETS - ID SUCURSAL].[ID SUCURSAL].[ID SUCURSAL].[MEMBER_UNIQUE_NAME]</remote-alias>
+            <caption>ID SUCURSAL</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='SQL_COLUMN_NAME'>&quot;NAME( [$TICKETS - ID SUCURSAL].[ID SUCURSAL] )&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>CATALOGO GASTOS</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>CATALOGO GASTOS</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[CATALOGO GASTOS].[ID NOMBRE GASTO]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[CATALOGO GASTOS]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>COMPRA POR PRODUCTO</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>COMPRA POR PRODUCTO</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[COMPRAS].[ID COMPRA]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[COMPRAS]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>COMPRA POR PRODUCTO</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>COMPRA POR PRODUCTO</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[COMPRAS - ID PROVEEDOR].[ID PROVEEDOR]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[COMPRAS - ID PROVEEDOR]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>COMPRA POR PRODUCTO</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>COMPRA POR PRODUCTO</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[PRODUCTOS].[ID PRODUCTO]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[PRODUCTOS]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>COMPRA POR PRODUCTO</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>COMPRA POR PRODUCTO</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[PRODUCTOS - ID PROVEEDOR].[ID PROVEEDOR]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[PRODUCTOS - ID PROVEEDOR]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>COMPRA POR PRODUCTO</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>COMPRA POR PRODUCTO</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[SUCURSALES].[ID SUCURSAL]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[SUCURSALES]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>COMPRAS</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>COMPRAS</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[COMPRAS].[ID COMPRA]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[COMPRAS]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>COMPRAS</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>COMPRAS</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[PROVEEDORES].[ID PROVEEDOR]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[PROVEEDORES]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>COMPRAS</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>COMPRAS</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[SUCURSALES].[ID SUCURSAL]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[SUCURSALES]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>GASTOS</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>GASTOS</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[CATALOGO GASTOS].[ID NOMBRE GASTO]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[CATALOGO GASTOS]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>GASTOS</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>GASTOS</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[SUCURSALES].[ID SUCURSAL]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[SUCURSALES]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>SUCURSALES</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>SUCURSALES</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[CAJAS - ID SUCURSAL].[ID SUCURSAL]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[CAJAS - ID SUCURSAL]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>SUCURSALES</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>SUCURSALES</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[EMPLEADOS - ID SUCURSAL].[ID SUCURSAL]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[EMPLEADOS - ID SUCURSAL]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>SUCURSALES</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>SUCURSALES</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[SUCURSALES].[ID SUCURSAL]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[SUCURSALES]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>SUCURSALES</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>SUCURSALES</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[TICKETS - CURP - ID SUCURSAL].[ID SUCURSAL]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[TICKETS - CURP - ID SUCURSAL]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>SUCURSALES</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>SUCURSALES</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[TICKETS - ID CAJA - ID SUCURSAL].[ID SUCURSAL]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[TICKETS - ID CAJA - ID SUCURSAL]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>SUCURSALES</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>SUCURSALES</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[TICKETS - ID SUCURSAL].[ID SUCURSAL]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[TICKETS - ID SUCURSAL]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>TICKETS</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>TICKETS</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[CAJAS].[ID CAJA]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[CAJAS]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>TICKETS</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>TICKETS</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[CAJAS - ID SUCURSAL].[ID SUCURSAL]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[CAJAS - ID SUCURSAL]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>TICKETS</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>TICKETS</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[EMPLEADOS].[CURP]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[EMPLEADOS]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>TICKETS</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>TICKETS</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[EMPLEADOS - ID SUCURSAL].[ID SUCURSAL]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[EMPLEADOS - ID SUCURSAL]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>TICKETS</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>TICKETS</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[SUCURSALES].[ID SUCURSAL]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[SUCURSALES]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>TICKETS</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>TICKETS</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[TICKETS].[ID TICKET]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[TICKETS]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>TICKETS DETALLE</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>TICKETS DETALLE</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[CAJAS].[ID CAJA]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[CAJAS]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>TICKETS DETALLE</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>TICKETS DETALLE</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[EMPLEADOS].[CURP]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[EMPLEADOS]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>TICKETS DETALLE</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>TICKETS DETALLE</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[PRODUCTOS].[ID PRODUCTO]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[PRODUCTOS]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>TICKETS DETALLE</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>TICKETS DETALLE</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[PRODUCTOS - ID PROVEEDOR].[ID PROVEEDOR]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[PRODUCTOS - ID PROVEEDOR]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>TICKETS DETALLE</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>TICKETS DETALLE</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[TICKETS].[ID TICKET]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[TICKETS]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>TICKETS DETALLE</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>TICKETS DETALLE</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[TICKETS - CURP - ID SUCURSAL].[ID SUCURSAL]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[TICKETS - CURP - ID SUCURSAL]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>TICKETS DETALLE</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>TICKETS DETALLE</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[TICKETS - ID CAJA - ID SUCURSAL].[ID SUCURSAL]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[TICKETS - ID CAJA - ID SUCURSAL]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='granularity'>
+            <remote-name>TICKETS DETALLE</remote-name>
+            <remote-type>0</remote-type>
+            <remote-alias>TICKETS DETALLE</remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DIMENSION_GRANULARITY'>&quot;[TICKETS - ID SUCURSAL].[ID SUCURSAL]&quot;</attribute>
+              <attribute datatype='string' name='DIMENSION_UNIQUE_NAME'>&quot;[TICKETS - ID SUCURSAL]&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column-instance column='[SUCURSALES].[ID SUCURSAL].[ID SUCURSAL]' derivation='None' name='[SUCURSALES].[ID SUCURSAL].[none:ID SUCURSAL:nk]' pivot='key' type='nominal' />
+      <column-instance column='[GASTOS Count]' derivation='None' name='[none:GASTOS Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MONTO]' derivation='None' name='[none:MONTO:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[TICKETS Count]' derivation='None' name='[none:TICKETS Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[TOTAL COMPRA]' derivation='None' name='[none:TOTAL COMPRA:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[msolap.1nwjzd01xf54ga12u29uu0219r9h].[none:MONTO:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[msolap.1nwjzd01xf54ga12u29uu0219r9h].[none:TICKETS Count:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[msolap.1nwjzd01xf54ga12u29uu0219r9h].[none:TOTAL COMPRA:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[msolap.1nwjzd01xf54ga12u29uu0219r9h].[none:GASTOS Count:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[SUCURSALES].[ID SUCURSAL].[none:ID SUCURSAL:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[9]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[1]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[5]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[13]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[10]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[6]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[19]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[2]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[17]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[7]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[14]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[15]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[18]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[20]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[11]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[8]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[3]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[16]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[12]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[SUCURSALES].[ID SUCURSAL].&amp;[4]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Mexico&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Gastos por sucursal&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Upysusa Base (Warehouse)' name='msolap.1nwjzd01xf54ga12u29uu0219r9h' />
+          </datasources>
+          <datasource-dependencies datasource='msolap.1nwjzd01xf54ga12u29uu0219r9h'>
+            <column-instance column='[CATALOGO GASTOS].[NOMBRE].[NOMBRE]' derivation='None' name='[CATALOGO GASTOS].[NOMBRE].[none:NOMBRE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SUCURSALES].[ID SUCURSAL].[ID SUCURSAL]' derivation='None' name='[SUCURSALES].[ID SUCURSAL].[none:ID SUCURSAL:nk]' pivot='key' type='nominal' />
+            <column-instance column='[GASTOS Count]' derivation='None' name='[none:GASTOS Count:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MONTO]' derivation='None' name='[none:MONTO:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[msolap.1nwjzd01xf54ga12u29uu0219r9h].[SUCURSALES].[ID SUCURSAL].[none:ID SUCURSAL:nk]' value='27' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[msolap.1nwjzd01xf54ga12u29uu0219r9h].[CATALOGO GASTOS].[NOMBRE].[none:NOMBRE:nk]' />
+              <lod column='[msolap.1nwjzd01xf54ga12u29uu0219r9h].[none:MONTO:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[msolap.1nwjzd01xf54ga12u29uu0219r9h].[none:GASTOS Count:qk]</rows>
+        <cols>[msolap.1nwjzd01xf54ga12u29uu0219r9h].[SUCURSALES].[ID SUCURSAL].[none:ID SUCURSAL:nk]</cols>
+      </table>
+      <simple-id uuid='{E0731B01-CBC4-4712-B40D-FA57C7AEEB6E}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Compras por sucursal&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Upysusa Base (Warehouse)' name='msolap.1nwjzd01xf54ga12u29uu0219r9h' />
+          </datasources>
+          <datasource-dependencies datasource='msolap.1nwjzd01xf54ga12u29uu0219r9h'>
+            <column-instance column='[SUCURSALES].[ID SUCURSAL].[ID SUCURSAL]' derivation='None' name='[SUCURSALES].[ID SUCURSAL].[none:ID SUCURSAL:nk]' pivot='key' type='nominal' />
+            <column-instance column='[COMPRAS Count]' derivation='None' name='[none:COMPRAS Count:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[COSTO TOTAL PEDIDO]' derivation='None' name='[none:COSTO TOTAL PEDIDO:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[msolap.1nwjzd01xf54ga12u29uu0219r9h].[none:COMPRAS Count:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[msolap.1nwjzd01xf54ga12u29uu0219r9h].[none:COMPRAS Count:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[msolap.1nwjzd01xf54ga12u29uu0219r9h].[none:COSTO TOTAL PEDIDO:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[msolap.1nwjzd01xf54ga12u29uu0219r9h].[SUCURSALES].[ID SUCURSAL].[none:ID SUCURSAL:nk]</rows>
+        <cols>([msolap.1nwjzd01xf54ga12u29uu0219r9h].[none:COMPRAS Count:qk] + [msolap.1nwjzd01xf54ga12u29uu0219r9h].[none:COSTO TOTAL PEDIDO:qk])</cols>
+      </table>
+      <simple-id uuid='{784248DE-359A-4B83-BA4A-8359DAD298B6}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Ventas por sucursal&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Upysusa Base (Warehouse)' name='msolap.1nwjzd01xf54ga12u29uu0219r9h' />
+          </datasources>
+          <datasource-dependencies datasource='msolap.1nwjzd01xf54ga12u29uu0219r9h'>
+            <column-instance column='[SUCURSALES].[ID SUCURSAL].[ID SUCURSAL]' derivation='None' name='[SUCURSALES].[ID SUCURSAL].[none:ID SUCURSAL:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TICKETS Count]' derivation='None' name='[none:TICKETS Count:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TOTAL COMPRA]' derivation='None' name='[none:TOTAL COMPRA:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[msolap.1nwjzd01xf54ga12u29uu0219r9h].[none:TICKETS Count:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#59a14f' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[msolap.1nwjzd01xf54ga12u29uu0219r9h].[none:TOTAL COMPRA:qk]</rows>
+        <cols>[msolap.1nwjzd01xf54ga12u29uu0219r9h].[SUCURSALES].[ID SUCURSAL].[none:ID SUCURSAL:nk]</cols>
+      </table>
+      <simple-id uuid='{F47E3444-6114-486C-A49B-6BD2E4B2C42B}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='61100' x='800' y='1000'>
+              <zone h='42500' id='3' name='Sheet 1' w='61100' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='55500' id='9' name='Sheet 2' w='61100' x='800' y='43500'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='373' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='37300' x='61900' y='1000'>
+              <zone fixed-size='286' h='36750' id='8' is-fixed='true' name='Sheet 1' pane-specification-id='0' param='[msolap.1nwjzd01xf54ga12u29uu0219r9h].[CATALOGO GASTOS].[NOMBRE].[none:NOMBRE:nk]' type-v2='color' w='37300' x='61900' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='61250' id='10' name='Sheet 3' w='37300' x='61900' y='37750'>
+                <layout-cache cell-count-w='14' minheight='195' non-cell-size-w='69' type-h='scalable' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='950' minheight='950' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='19' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='42500' id='3' is-fixed='true' name='Sheet 1' w='61100' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='286' h='36750' id='8' name='Sheet 1' pane-specification-id='0' param='[msolap.1nwjzd01xf54ga12u29uu0219r9h].[CATALOGO GASTOS].[NOMBRE].[none:NOMBRE:nk]' type-v2='color' w='37300' x='61900' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='61250' id='10' is-fixed='true' name='Sheet 3' w='37300' x='61900' y='37750'>
+                  <layout-cache cell-count-w='14' minheight='195' non-cell-size-w='69' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='55500' id='9' is-fixed='true' name='Sheet 2' w='61100' x='800' y='43500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A62867A7-2DC7-49F1-9E81-C3F230B59910}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <selection-collection>
+            <node-selection select-tuples='false'>
+              <oriented-node-reference orientation='vertical'>
+                <node-reference>
+                  <axis>[msolap.1nwjzd01xf54ga12u29uu0219r9h].[none:GASTOS Count:qk]</axis>
+                </node-reference>
+                <page-reference />
+              </oriented-node-reference>
+            </node-selection>
+          </selection-collection>
+          <highlight>
+            <color-one-way>
+              <field>[msolap.1nwjzd01xf54ga12u29uu0219r9h].[SUCURSALES].[ID SUCURSAL].[none:ID SUCURSAL:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Sheet 2' />
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{15F40044-ED7F-4109-8070-CB56E09EB688}' />
+    </window>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[msolap.1nwjzd01xf54ga12u29uu0219r9h].[CATALOGO GASTOS].[NOMBRE].[none:NOMBRE:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[msolap.1nwjzd01xf54ga12u29uu0219r9h].[:Measure Names]</field>
+            <field>[msolap.1nwjzd01xf54ga12u29uu0219r9h].[CATALOGO GASTOS].[NOMBRE].[none:NOMBRE:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4984BAF4-C2A8-498C-8BEA-B2BF69F19426}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[msolap.1nwjzd01xf54ga12u29uu0219r9h].[:Measure Names]</field>
+            <field>[msolap.1nwjzd01xf54ga12u29uu0219r9h].[SUCURSALES].[ID SUCURSAL].[none:ID SUCURSAL:nk]</field>
+            <field>[msolap.1nwjzd01xf54ga12u29uu0219r9h].[none:COMPRAS Count:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D126F89A-0D89-4191-AABD-D0F53F7F9DD4}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[msolap.1nwjzd01xf54ga12u29uu0219r9h].[:Measure Names]</field>
+            <field>[msolap.1nwjzd01xf54ga12u29uu0219r9h].[SUCURSALES].[ID SUCURSAL].[none:ID SUCURSAL:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{99A4F4B7-EA43-4C69-A195-B6F263A35703}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      AABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      ja/VAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      rkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

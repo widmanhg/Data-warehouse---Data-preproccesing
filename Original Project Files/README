@@ -1,0 +1,11 @@
+Codigo de Preprocesamiento, el codigo de python esta medianamente comentado, cualquier duda contactenos
+
+Instrucciones:
+1.-Abrir UpysusaBuilder.sql y correr la linea de "CREATE DATABASE Upysusa;", esto creara la base de datos
+2.-Creada la base de datos proceda a correr el resto del codigo(las tablas), seleccione el codigo y presione execute
+    ubicado en la esquina superior izquierda
+3.-Terminado este paso, corra el codigo "injector.py", no deberia de tener ningun inconveniente y en caso de tenerlo
+    asegurese que su version del driver coincida con la indicada en el codigo y que haya completado correctamente los pasos
+    anteriores, en caso de que el error persista,, contactenos
+
+Luis A. Michel - Gerardo Widman - Oscar Martinez - David Hernandez - Moises Carrillo - Juan Cel

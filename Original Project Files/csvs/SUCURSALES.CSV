@@ -1,0 +1,21 @@
+ID_SUCURSAL,TIPO_OPERACION,CALLE,NUMERO,CP,COLONIA,MUNICIPIO,ESTADO,NO_EMPLEADOS
+1,Almacen,Calle 10,629,97000,Centro,Mérida,Yucatán,5
+2,Sucursal de venta,Avenida 5,334,97134,García Ginerés,Mérida,Yucatán,5
+3,Corporativo,Calle 20,697,97210,Itzimná,Mérida,Yucatán,5
+4,Almacen,Calle 15,503,97050,Francisco de Montejo,Mérida,Yucatán,5
+5,Sucursal de venta,Avenida 10,643,97120,Chuburná de Hidalgo,Mérida,Yucatán,5
+6,Corporativo,Calle 25,330,97230,Montecristo,Mérida,Yucatán,5
+7,Almacen,Calle 30,281,97070,Altabrisa,Mérida,Yucatán,5
+8,Sucursal de venta,Avenida 15,561,97110,Santa Gertrudis Copó,Mérida,Yucatán,5
+9,Corporativo,Calle 35,561,97240,Colonia México,Mérida,Yucatán,5
+10,Almacen,Calle 40,413,97080,San Ramón Norte,Mérida,Yucatán,5
+11,Sucursal de venta,Avenida 20,518,97114,Santa Ana,Mérida,Yucatán,5
+12,Corporativo,Calle 45,316,97250,Emiliano Zapata Norte,Mérida,Yucatán,5
+13,Almacen,Calle 50,406,97090,San Antonio Cucul,Mérida,Yucatán,5
+14,Sucursal de venta,Avenida 25,323,97116,Ampliación San Antonio Cucul,Mérida,Yucatán,5
+15,Corporativo,Calle 55,568,97260,Santa María,Mérida,Yucatán,5
+16,Almacen,Calle 60,248,97100,Francisco I. Madero,Mérida,Yucatán,5
+17,Sucursal de venta,Avenida 30,414,97118,Santa Isabel,Mérida,Yucatán,5
+18,Corporativo,Calle 65,263,97270,Montealbán,Mérida,Yucatán,5
+19,Almacen,Calle 70,509,97130,Residencial Pensiones,Mérida,Yucatán,5
+20,Sucursal de venta,Avenida 35,248,97122,San José Tecoh,Mérida,Yucatán,5
